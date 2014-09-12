@@ -30,16 +30,16 @@ public class LayoutCombo implements ActionListener
         panelLeft = new JPanel();
         panelLeft.setLayout(new BoxLayout(panelLeft,BoxLayout.Y_AXIS));
  
-        button1 = new JButton("Button 1");
+        button1 = new JButton("Wrap Text             ");
         button1.addActionListener(this);
         panelLeft.add(button1);
-        button2 = new JButton("Button 2");
+        button2 = new JButton("Do Not Wrap Text");
         button2.addActionListener(this);
         panelLeft.add(button2);
-        button3 = new JButton("Button 3");
+        button3 = new JButton("                                 ");
         button3.addActionListener(this);
         panelLeft.add(button3);
-        button4 = new JButton("Button 4");
+        button4 = new JButton("Clear Text             ");
         button4.addActionListener(this);
         panelLeft.add(button4);
 
@@ -48,16 +48,16 @@ public class LayoutCombo implements ActionListener
         panelRight = new JPanel();
         panelRight.setLayout(new BoxLayout(panelRight,BoxLayout.Y_AXIS));
         
-        button5 = new JButton("Button 5");
+        button5 = new JButton("Scroll Vertically     ");
         button5.addActionListener(this);
         panelRight.add(button5);
-        button6 = new JButton("Button 6");
+        button6 = new JButton("Scroll Horizontally ");
         button6.addActionListener(this);
         panelRight.add(button6);
-        button7 = new JButton("Button 7");
+        button7 = new JButton("Scroll Both Ways  ");
         button7.addActionListener(this);
         panelRight.add(button7);
-        button8 = new JButton("Button 8");
+        button8 = new JButton("Do Not Scroll          ");
         button8.addActionListener(this);
         panelRight.add(button8);
        
