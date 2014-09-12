@@ -19,7 +19,7 @@ public class LayoutCombo implements ActionListener
  
     public void start()
         {
-        frame = new JFrame("Border and Box Layouts");
+        frame = new JFrame("Assignment 6");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         Container contentPane = frame.getContentPane();
         contentPane.setLayout(new BorderLayout());
@@ -63,7 +63,7 @@ public class LayoutCombo implements ActionListener
        
         contentPane.add(panelRight, BorderLayout.EAST);
  
-        textArea = new JTextArea(10,25);
+        textArea = new JTextArea(6,15);
         scrollArea = new JScrollPane(textArea);
         scrollArea.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED);
         scrollArea.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
